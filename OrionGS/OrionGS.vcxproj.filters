@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header FIles">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header FIles\Sinum">
+      <UniqueIdentifier>{0fdc6461-50bf-48da-bcc2-c2edd2311065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header FIles\Sinum\Core">
+      <UniqueIdentifier>{a73bd00c-ed0d-47d0-9ef6-7f5dbda3a2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header FIles\Sinum\Core\Unreal">
+      <UniqueIdentifier>{4c3d115c-0097-4969-9e5b-dce7eca15973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header FIles\Sinum\Utilities">
+      <UniqueIdentifier>{39795dcc-7974-4576-a50d-9575ea48231c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sinum">
+      <UniqueIdentifier>{78189182-30a3-426e-997e-962b9926d639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sinum\Core">
+      <UniqueIdentifier>{00998382-5630-4af2-ac9f-af00f7102632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header FIles\GameRewritten">
+      <UniqueIdentifier>{b2592f96-5673-4d7b-855b-82cdc06e2ef1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CoreUObject_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Engine_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FortniteGame_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GameplayAbilities_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sinum\Core\Core.cpp">
+      <Filter>Source Files\Sinum\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sinum\Sinum.cpp">
+      <Filter>Source Files\Sinum</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\AIModule_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CommonDialogueRuntime_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GameplayTags_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="NetDriver.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyFixup.hpp">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="XP.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinum\Core\Core.h">
+      <Filter>Header FIles\Sinum\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinum\Core\Unreal\Array.h">
+      <Filter>Header FIles\Sinum\Core\Unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinum\Core\Unreal\Memory.h">
+      <Filter>Header FIles\Sinum\Core\Unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinum\Core\Unreal\String.h">
+      <Filter>Header FIles\Sinum\Core\Unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinum\Sinum.h">
+      <Filter>Header FIles\Sinum</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinum\Core\Constants.h">
+      <Filter>Header FIles\Sinum\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinum\Utilities\Windows.h">
+      <Filter>Header FIles\Sinum\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinum\Utilities\memcury.h">
+      <Filter>Header FIles\Sinum\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRewritten\InventoryService.hpp">
+      <Filter>Header FIles\GameRewritten</Filter>
+    </ClInclude>
+    <ClInclude Include="Bots.h">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NameCollisions.inl">
+      <Filter>Header FIles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
